@@ -56,7 +56,7 @@ features.csv:
 
 ### Results:
 - There is not specific factor will affect the sales amount, except time. 
-- Through two different time seeries model, we could forecast the trend of the future sales amount and the trend. 
+- Through two different time series model, we could forecast the trend of the future sales amount and the trend. 
 - Based on the FBProphet model, the selling trend is increase. And selling amount in February is the floor during a year, but the trend will rapidly go high at the end of a year. 
 - Based on the ARIMA model, we could specifically predict the selling amount with pretty well Mean Absolute percentage error.
 
