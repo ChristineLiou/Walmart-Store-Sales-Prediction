@@ -55,10 +55,12 @@ features.csv:
 - IsHoliday: If that week is the holiday week marked True. 
 
 ### Results:
-- There is not specific factor will affect the sales amount, except time. 
-- Through two different time series model, we could forecast the trend of the future sales amount and the trend. 
-- Based on the FBProphet model, the selling trend is increase. And selling amount in January is the floor during a year, but the trend will rapidly go high at the end of a year. 
-- Based on the ARIMA model, we could specifically predict the selling amount with pretty well Mean Absolute percentage error.
+- Combined with the feature data, there is not a specific factor that will affect the sales amount, except time.
+- According to the first come out, the best way to analyze Walmart Store Sales data is time series models. Through two different time series models, we could forecast the trend of the future sales amount and the trend.
+- Based on the FBProphet model, the selling trend is increasing. And selling amount in January touches the floor during a year, but the trend will rapidly go high at the end of a year.
+- Based on the ARIMA model, we could predict the selling amount with a pretty well Mean Absolute percentage error at 0.0378.
+
+You can view more details on my [Medium](https://chris-liou007.medium.com/walmart-store-sales-prediction-622da8dbe9a0)
 
 ### Reference:
 Data source from [Kaggle](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). 
